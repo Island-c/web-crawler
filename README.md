@@ -6,13 +6,13 @@
 
 （一）URL管理器
 
-        该模块主要维护两个变量：以爬取的URL集合和未爬取的URL集合。之所以选择集合是因为集合中元素不能重复的特点，这就给url进行了一个去重。
-    该模块的主要接口有：
-    判断是否有待取的URL，方法定义为has_new_url()。
-    添加新的URL到未爬取的集合中，方法定义为：add_new_url(url),add_new_urls(urls)。
-    获取未爬取的URL，方法定义为get_new_url()。
-    获取未爬取的URL集合大小，方法定义为new_url_size()。
-    获取已爬取的URL集合大小，方法定义为old_url_size()。
+        该模块主要维护两个变量：以爬取的URL集合和未爬取的URL集合。之所以选择集合是因为集合中元素不能重复的特点，这就给url进行了一个去重。
+- 该模块的主要接口有：
+    - 判断是否有待取的URL，方法定义为has_new_url()。
+    - 添加新的URL到未爬取的集合中，方法定义为：add_new_url(url),add_new_urls(urls)。
+    - 获取未爬取的URL，方法定义为get_new_url()。
+    - 获取未爬取的URL集合大小，方法定义为new_url_size()。
+    - 获取已爬取的URL集合大小，方法定义为old_url_size()。
 
 （二）网页下载器
 
